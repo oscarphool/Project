@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/casa"
+            android:title="@string/menu_menuPrincipal" />
+        <item
+            android:id="@+id/nav_calculadora"
+            android:icon="@drawable/calculadora"
+            android:title="@string/menu_calculadora" />
+        <item
+            android:id="@+id/nav_sonidos"
+            android:icon="@drawable/audifonos"
+            android:title="@string/menu_sonidos" />
+        <item
+            android:id="@+id/nav_sitioweb"
+            android:icon="@drawable/web"
+            android:title="@string/menu_sitioweb" />
+        <item
+            android:id="@+id/nav_abriraplicaciones"
+            android:icon="@drawable/app"
+            android:title="@string/menu_abriraplicaciones" />
+        <item
+            android:id="@+id/nav_maravillasmodernas"
+            android:icon="@drawable/auto"
+            android:title="@string/menu_maravillasmodernas" />
+        <item
+            android:id="@+id/nav_visualizador3d"
+            android:icon="@drawable/tres"
+            android:title="@string/menu_visualizador3d" />
+        <item
+            android:id="@+id/nav_motion"
+            android:icon="@drawable/tres"
+            android:title="@string/menu_motion" />
+    </group>
+</menu>

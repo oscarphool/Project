@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_menuPrincipal">
+
+    <fragment
+        android:id="@+id/nav_menuPrincipal"
+        android:name="com.example.app_040922_nd.ui.mainmenu.MainMenuFragment"
+        android:label="@string/menu_menuPrincipal"
+        tools:layout="@layout/fragment_mainmenu" />
+    <fragment
+        android:id="@+id/nav_calculadora"
+        android:name="com.example.app_040922_nd.ui.calculadora.CalculadoraFragment"
+        android:label="@string/menu_calculadora"
+        tools:layout="@layout/fragment_calculadora" />
+    <fragment
+        android:id="@+id/nav_sonidos"
+        android:name="com.example.app_040922_nd.ui.sonidos.SonidosFragment"
+        android:label="@string/menu_sonidos"
+        tools:layout="@layout/fragment_sonidos" />
+    <fragment
+        android:id="@+id/nav_sitioweb"
+        android:name="com.example.app_040922_nd.ui.sitioweb.SitioWebFragment"
+        android:label="@string/menu_sitioweb"
+        tools:layout="@layout/fragment_sitioweb" />
+    <fragment
+        android:id="@+id/nav_abriraplicaciones"
+        android:name="com.example.app_040922_nd.ui.abriraplicaciones.AbrirAplicacionesFragment"
+        android:label="@string/menu_abriraplicaciones"
+        tools:layout="@layout/fragment_abriraplicaciones" />
+    <fragment
+        android:id="@+id/nav_maravillasmodernas"
+        android:name="com.example.app_040922_nd.ui.marcasautos.MarcasAutosFragment"
+        android:label="@string/menu_maravillasmodernas"
+        tools:layout="@layout/fragment_marcasautos" />
+    <fragment
+        android:id="@+id/nav_visualizador3d"
+        android:name="com.example.app_040922_nd.ui.visualizador3D.Visualizador3DFragment"
+        android:label="@string/menu_visualizador3d"
+        tools:layout="@layout/fragment_visualizador3d" />
+    <fragment
+        android:id="@+id/motion"
+        android:name="com.example.app_040922_nd.motion"
+        android:label="fragment_motion"
+        tools:layout="@layout/fragment_motion" />
+</navigation>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">LKG</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Desarrollo de Software</string>
+    <string name="nav_header_subtitle">Akashi</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_menuPrincipal">Menu Principal</string>
+    <string name="menu_calculadora">Calculadora</string>
+    <string name="menu_sonidos">Sonidos</string>
+    <string name="menu_sitioweb">Sitio Web</string>
+    <string name="menu_abriraplicaciones">Abrir Aplicaciones</string>
+    <string name="menu_maravillasmodernas">Modelos Autos</string>
+    <string name="menu_visualizador3d">3D</string>
+    <string name="menu_motion">Motion</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo5"
+    android:padding="30dp"
+    tools:context=".ui.marcasautos.MarcasAutosFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                app:srcCompat="@drawable/ford" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_alternates_light"
+                android:text="F-150 Raptor"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="142dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_alternates_light"
+                android:text="Diseñada por el equipo de Ford Performance, All New F-150 Raptor, fue pensada para hacer frente a todo tipo de desafíos y desempeñarse en los contextos más extremos, para los verdaderos entusiastas del off-road."
+                android:textAlignment="center"
+                android:textSize="14dp"
+                tools:layout_editor_absoluteX="142dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                app:srcCompat="@drawable/mustang" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_alternates_light"
+                android:text="Mustang Mach 1"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="142dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_alternates_light"
+                android:text="All New Mustang Mach 1 destaca por donde va gracias a su diseño aerodinámico. Estaversión presenta una nueva parrilla y aros de aleación de 19."
+                android:textAlignment="center"
+                android:textSize="14dp"
+                tools:layout_editor_absoluteX="142dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                app:srcCompat="@drawable/tucson" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_alternates_light"
+                android:text="New Tucson"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="142dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_alternates_light"
+                android:text="El nuevo TUCSON marca el comienzo de un nuevo día y una nueva forma de conducir. Rechazando lo ordinario, el nuevo TUCSON empuja los límites del segmento para reinventar casi todo. En el exterior, el TUCSON está diseñado para impresionar, mientras que en el interior, descubrirás un nivel de amplitud, comodidad y versatilidad que supera todas las expectativas."
+                android:textAlignment="center"
+                android:textSize="14dp"
+                tools:layout_editor_absoluteX="142dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                app:srcCompat="@drawable/veloster" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_alternates_light"
+                android:text="Veloster"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="142dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_alternates_light"
+                android:text="Aquí hay una nueva idea que combina elestilo de un coupé con la funcionalidad de un hatchback. ¿El resultado? Veloster. Una mezcla de estilos en un vehículo utilitario, con una presencia única e innovadora. Es donde la dinámica se encuentra con la practicidad."
+                android:textAlignment="center"
+                android:textSize="14dp"
+                tools:layout_editor_absoluteX="142dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                app:srcCompat="@drawable/hilux" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_alternates_light"
+                android:text="Hilux"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="142dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_alternates_light"
+                android:text="Parrilla frontal: La nueva parrilla cromada posee una prominente estructura tridimensional donde destaca su forma trapezoidal, que se extiende hacia los lados y resalta la mirada retadora de los faros delanteros . Faros delanteros: Elaborados con una cubierta de policarbonato, y con una expresión aguda y fuerte, llenan de gran carácter a esta pick-up."
+                android:textAlignment="center"
+                android:textSize="14dp"
+                tools:layout_editor_absoluteX="142dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                app:srcCompat="@drawable/fortuner" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_alternates_light"
+                android:text="Fortuner"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="142dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_alternates_light"
+                android:text="Frontal: La nueva Toyota Fortuner cuenta con una renovada máscara delantera con detalles cromados que, junto a su nuevo diseño, le dan una figura más sofisticada, agresiva y armónica. Faros delanteros LED con DRL: Sus faros LED con DRL (Daylight Running Lamps) aseguran una mejor iluminación del camino y a su vez remarcan el sofisticado estilo de la nueva Fortuner."
+                android:textAlignment="center"
+                android:textSize="14dp"
+                tools:layout_editor_absoluteX="142dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                app:srcCompat="@drawable/outlander" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_alternates_light"
+                android:text="Outlander"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="142dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_alternates_light"
+                android:text="Diseño: Advanced Dynamic Shield: Renovamos nuestra identidad al unir los beneficios de diseño de dos de nuestros modelos. Su máscara frontal rodea y protege al vehículo adoptando la resistencia, durabilidad que caracterizan a la Montero y el área central de la máscara frontal expresa el alto performance, la deportividad y agilidad del Lancer Evolution."
+                android:textAlignment="center"
+                android:textSize="14dp"
+                tools:layout_editor_absoluteX="142dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
